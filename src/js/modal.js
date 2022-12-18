@@ -95,7 +95,7 @@ const murkupMovie = ({
       </svg>
     </button>
   <div class="modal__sidebar--left">
-      <img class="modal__img" src="${poster_path}" alt="" />
+      <img class="modal__img" src="https://image.tmdb.org/t/p/w500/${poster_path}" alt="" />
     </div>
 
     <div class="modal__sidebar--right">

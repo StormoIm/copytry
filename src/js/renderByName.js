@@ -1,6 +1,6 @@
 import { Loading, Notify } from 'notiflix';
 
-const KEY = 'ab57a8d74b0df3fdba80a78e42f32d17'; // API KEY
+const KEY = '13476cf9a62e839f8cae631c41f2ea5e'; // API KEY
 const IMG_URL = 'https://image.tmdb.org/t/p/w500'; // посилання на картинку
 const API_URL = `${BASE_URL}trending/movie/day?api_key=${KEY}&page=${movieStrorage}`; // посилання на початковий рендер популярних фільмів
 const BASE_FIND_WORD_URL = `https://api.themoviedb.org/3/search/movie?api_key=00bb2c85647763d13c7f7e27b824373c`; // посилання на пошук фільмів за назвою

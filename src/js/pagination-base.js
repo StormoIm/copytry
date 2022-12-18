@@ -1,6 +1,6 @@
 // Load inner sources
-import createTypicalPaginationNavigation from "./pagination-create-typical-nav";
-import createMobilePaginationNavigation from "./pagination-create-mobile-nav";
+import createTypicalPaginationNavigation from "./pagination-create-typical-nav.js";
+import createMobilePaginationNavigation from "./pagination-create-mobile-nav.js";
 
 const paginationClickForInput = document.querySelector(".pagination-click");
 const paginationInput = document.querySelector(".pagination-input");
